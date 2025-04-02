@@ -7,7 +7,7 @@ services:
       POSTGRES_USER: simplebox_user
       POSTGRES_PASSWORD: simplebox_pass
     ports:
-      - "5434:5432"
+      - "5432:5432"
     volumes:
       - simplebox-postgres-data:/var/lib/postgresql/data
 
